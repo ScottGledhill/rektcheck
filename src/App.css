@@ -1,0 +1,67 @@
+.DashboardContainer {
+  text-align: center;
+}
+.DashboardContainer-header {
+  background: #7F00FF;
+  background: linear-gradient(to right,yellow, pink);
+  height: 150px;
+  padding: 15px;
+  color: rgb(51, 9, 92);
+}
+.DashboardContainer-title {
+  font-size: 1.5em;
+}
+.DashboardContainer-intro {
+  font-size: large;
+}
+
+.up {
+  background-color: green;
+  color: white; 
+    width:200px;
+    height:185px;
+    margin:50px auto;
+    border:4px solid pink; 
+}
+
+.lambo {
+  background-image: url('./lambo.gif');
+  background-color: green;
+  color: rgb(255, 143, 23) ;
+    width:200px;
+    height:185px;
+    margin:50px auto;
+    border:4px solid pink; 
+}
+
+.down {
+  background-color: red;
+  color: white;
+    width:200px;
+    height:185px;
+    margin:50px auto;
+    border:4px solid black; 
+}
+
+.rekt {
+  background-image: url('./rekt.gif');
+  color: mistyrose;
+    width:200px;
+    height:185px;
+    margin:50px auto;
+    border:4px solid black;
+}
+
+.background {
+  background: white;
+}
+
+.searchBar {
+  position: absolute;
+  top: 100px;
+  left: calc( 50% - 75px)
+}
+
+.loading {
+  background-image: url('./loading.gif');
+}
